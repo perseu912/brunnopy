@@ -1,20 +1,16 @@
 import numpy
-import mpmath
-
-def fat(n):
-	nn = 1
-	res = 1
-	while(True):
-		if(nn==n):
-			break
-		else:	
-			nn= nn+1
-			res *= nn
-		#	print(res)
-		
-	return res
+from mpmath import *
+from scipy import integrate
+from scipy import special
 
 
+
+
+#constante de catalan
+
+
+
+#serie de maclaurin
 def mac(s):
 	n = 0
 	for i in range(1,1000):
@@ -25,4 +21,5 @@ def mac(s):
 if __name__ == '__main__':
 	print(atez(7))
 '''
+
 

@@ -7,12 +7,12 @@ setup(
     author_email = 'perseu912@gmail.com',
     packages=["brunno"],
     include_package_data=True,
-    install_requires=["numpy", "mpmath"],
+    install_requires=["numpy", "mpmath", "scipy"],
     description = 'lib for math and phisyc',
     long_description = 'one lib for phisyc and math ' + ',lib of functions specials, ' + 'phisyc marh',
     url = 'https://github.com/perseu912/brunnopy',
     project_urls = {
-        'Código fonte': 'https://github.com/perseu912',
+        'Código fonte': 'https://github.com/perseu912/brunnopy',
         'Download': 'https://github.com/perseu912/brunnopy/archive/master.zip'
     },
     license = 'MIT',
